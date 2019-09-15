@@ -1,0 +1,12 @@
+expln in detail command : chmod  442 xyz.sh
+ans)the chmod command is used to change the access mode of a file.
+The name is an abbreviation of change mode.
+Syntax :
+chmod [reference][operator][mode] file
+
+A numeric mode is from one to four octal digits (0-7), derived by adding up the bits with values 4, 2, and 1. Any omitted digits are assumed to be leading zeros. The first digit selects the set user ID (4) and set group ID (2) and sticky (1) attributes. The second digit selects permissions for the user who owns the file: read (4), write (2), and execute (1); the third selects permissions for other users in the file's group, with the same values; and the fourth for other users not in the file's group, with the same values.
+
+chmod 442 means :
+1) owner can read, can't write, can't execute
+2) group can read, can't write, can't execute
+3) others can write, can read, can't execute
