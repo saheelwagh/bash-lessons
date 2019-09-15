@@ -1,0 +1,38 @@
+#shell command to convert decimal number to  (!!!while copying plz write some other number than 34 so that it is not same for everone!!!)
+# 1) binary 
+ echo "obase=2 34" |bc
+ #output : 10010
+ #2) Octal :
+ echo "obase=8 34" | bc
+ #output : 42
+
+ #3) Hexadecimal :
+ echo "obase =16 34" |bc
+ # output : 22
+
+ Explain the foll commands :
+ 1) ps : 
+    The ps (i.e., process status) command is used to provide information about the currently running processes, including their process identification numbers (PIDs). A process, also referred to as a task, is an executing (i.e., running) instance of a program. Every process is assigned a unique PID by the system
+2 ) bc :
+bc command is used for command line calculator.Linux or Unix operating system provides the bc command and expr command for doing arithmetic calculations. You can use these commands in bash or shell script also for evaluating arithmetic expressions.
+
+3 ) pwd :
+prints the working directory. Output is the directory in which the command was run. Full path from root to this directory is printed
+
+4) uname :
+ The uname Command. The uname command reports basic information about a computer's software and hardware. When used without any options, uname reports the name, but not the version number, of the kernel. Use uname -a  to display all info.
+
+ 5) wc :
+ The wc (word count) command in Unix/Linux operating systems is used to find out number of newline count, word count, byte and characters count in a files specified by the file arguments.
+
+ 6) ls :
+ prints all the files and subdirectories present in the current directory in which this command is run. Hidden files are not shown by default.
+
+ 7) who :
+ displays the user who is currently logged in. 
+ Syntax : $who [options] [filename] 
+
+ 8) date
+ date command is used to display the system date and time. date command is also used to set date and time of the system. By default the date command displays the date in the time zone on which unix/linux operating system is configured.You must be the super-user (root) to change the date and time.
+Syntax:
+date [OPTION]... [+FORMAT]
