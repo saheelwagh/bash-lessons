@@ -1,4 +1,4 @@
-echo "Enter number to find favtorial"
+echo "Enter number to find factorial"
 read number
 
 count = 1
